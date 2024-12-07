@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tutorialsninja Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Tutorialsninja Tests(failed)">
+    <classes>
+      <class name="com.tutorialsninja.testcases.Register">
+        <methods>
+          <include name="SetUP"/>
+          <include name="VerifyRegesteringAccouuntWithMandatoryFields"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.testcases.Register -->
+    </classes>
+  </test> <!-- Tutorialsninja Tests(failed) -->
+</suite> <!-- Failed suite [Tutorialsninja Automation Suite] -->
